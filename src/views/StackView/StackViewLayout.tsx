@@ -384,9 +384,6 @@ class StackViewLayout extends React.Component<Props, State> {
         <Animated.View
           style={[
             styles.container,
-            this.context === 'light'
-              ? this.transitionConfig!.containerStyleLight
-              : this.transitionConfig!.containerStyleDark,
             this.transitionConfig!.containerStyle,
           ]}
         >
